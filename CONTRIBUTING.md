@@ -12,6 +12,7 @@
 To report a bug or suggest new functionality, go to the [issues](https://github.com/teloxide/teloxide/issues). Try to make MRE (**M**inimal **R**eproducible **E**xample) and specify your `teloxide` version to let others help you.
 
 If you want to ask a question, you can either
+
 - open a new [GitHub discussion](https://github.com/teloxide/teloxide/discussions), or
 - write to our Telegram group ([ENG](https://t.me/teloxide), [RU](https://t.me/teloxide_ru)).
 
@@ -95,7 +96,7 @@ cargo docs
 
 ### Bumping supported TBA version
 
-When you introduce changes that bump suppported Telegram Bot API version (e.g. 6.9 → 7.0), you must:
+When you introduce changes that bump supported Telegram Bot API version (e.g. 6.9 → 7.0), you must:
 
 - Specify your changes in [crates/teloxide-core/CHANGELOG.md](crates/teloxide-core/CHANGELOG.md) file
 - Change TBA version and it's announce date in `api_version: ApiVersion(ver: "7.0", date: "December 29, 2023"),` line in head of [crates/teloxide-core/schema.ron](crates/teloxide-core/schema.ron) file
