@@ -58,7 +58,7 @@ full = [
     "webhooks",
     "webhooks-axum",
     "sqlite-storage-nativetls",
-    # "sqlite-storage-rustls" is explicitly ommited here,
+    # "sqlite-storage-rustls" is explicitly omitted here,
     # since it conflicts with "sqlite-storage-nativetls"
     "redis-storage",
     "postgres-storage-nativetls",
